@@ -8,6 +8,22 @@ MERI-DUKAN is a full-stack e-commerce application built for learning purposes. I
 
 Comming Soon
 
+## .env boilerplat for future developement if do
+
+```
+   MONGO_URI=
+   PORT=5000
+   UPSTASH_REDIS_URL=
+   ACCESS_TOKEN_SECRET=
+   REFRESH_TOKEN_SECRET=
+   CLOUDINARY_CLOUD_NAME=
+   CLOUDINARY_API_KEY=
+   CLOUDINARY_API_SECRET=
+   STRIPE_SECRET_KEY=
+   CLIENT_URL=http://localhost:5173
+   NODE_ENV=development
+```
+
 ## 📂 Project Structure
 
 ```

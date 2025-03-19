@@ -85,7 +85,7 @@ async function login(request, response) {
         role: user.role,
       });
     } else {
-      response.status(401).json({ message: "Invalid email or password" });
+      response.status(400).json({ message: "Invalid email or password" });
     }
   } catch (error) {
     console.log("Error in Login controller", error.message);
