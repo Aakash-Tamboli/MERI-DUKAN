@@ -4,13 +4,11 @@
 
 MERI-DUKAN is a full-stack e-commerce application built for learning purposes. It includes a **React** frontend powered by **Vite** and a **Node.js** backend using **Express** and **MongoDB**. The app supports user authentication, product management, payments with **Stripe**, and more.
 
-## Live Demo
+## [Live Demo](https://meri-dukan.onrender.com)
 
-Comming Soon
+## .env boilerplate code for future developement if I do
 
-## .env boilerplat for future developement if do
-
-```
+```env
    MONGO_URI=
    PORT=5000
    UPSTASH_REDIS_URL=
@@ -88,12 +86,18 @@ cd Generic-E-Commerce
    ```
 3. Create a `.env` file and add:
    ```env
+   MONGO_URI=
    PORT=5000
-   MONGO_URI=your_mongo_db_connection
-   JWT_SECRET=your_jwt_secret
-   STRIPE_SECRET=your_stripe_secret
-   CLOUDINARY_URL=your_cloudinary_url
-   ```
+   UPSTASH_REDIS_URL=
+   ACCESS_TOKEN_SECRET=
+   REFRESH_TOKEN_SECRET=
+   CLOUDINARY_CLOUD_NAME=
+   CLOUDINARY_API_KEY=
+   CLOUDINARY_API_SECRET=
+   STRIPE_SECRET_KEY=
+   CLIENT_URL=http://localhost:5173
+   NODE_ENV=development
+  ```
 4. Run the server:
    ```sh
    npm run dev
